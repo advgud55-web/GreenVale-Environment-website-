@@ -1,0 +1,343 @@
+<html> 
+<html lang="en">
+<head>  
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Greenvale environmental - Sving the planet" />
+  <meta name="keywords" content="greenvale, save, green-planet, greenery, donate, hero" />
+  <meta name="author" content="Greenvale environmental" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  
+  <title>Accomplishments we can achieve to save the environment</title>
+ 
+<style>
+ 
+.header {display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-wrap: wrap;
+         padding: 20px;
+         background-color: #f0f8f5;
+         border-bottom: 2px solid #a0d6b4;
+         gap: 15px;
+         text-align: center;}
+      
+.logo {width: 70px;
+       height: 70px;
+       border-radius: 50%;
+       object-fit: cover;
+       flex-shrink: 0;}
+      
+.title-block {display: flex;
+              flex-direction: column;
+              align-items: center;}
+      
+.title {font-size: 2.8rem;
+        color: #2d6a4f;
+        margin: 0;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);}
+      
+.slogan {font-size: 1.3rem;
+      color: #4e8d7c;
+      margin: 5px 0 0;
+      font-style: italic;}
+
+@media (max-width: 600px) {
+      .header {flex-direction: column;}
+        
+      .logo {width: 55px;
+        height: 55px;}
+        
+      .title {font-size: 2rem;}
+        
+
+      .slogan {font-size: 1rem;}}   
+.p {margin: 20px auto;
+          max-width: 800px;
+          text-align: center;;
+          padding: 20px;
+          background-color: rgba(0, 0, 0, 0.6);
+          border-radius: 10px;}                    
+
+address {font-style: normal;        
+         color: rgb(0, 0, 0);
+         line-height: 1.5;}
+
+section {border: none;
+     color: white;
+  
+  font-size: 16px;
+  cursor: pointer;background-image: url("menu.jpg");}
+
+body {background-image: url("OIP.jpg");background-repeat: repeat; background-attachment: fixed;} 
+
+table { font-family: arial, sans-serif; border-collapse: collapse; width: 100%; }
+
+td, th {border: 1px solid red; text-align: left; padding: 8px; background-image: url("green background.png") }
+
+tr:nth-child(even) {background-image: url("green background.png");}
+
+.btn {border:none;
+      color: white;
+      padding: 14px ;margin: 0 10px;
+      font-size: 16px;}
+
+.HOME {background-color: lightgreen;} 
+.HOME:hover {background-color: violet;}
+
+.Get_Services {background-color: orange;} 
+.Get_Services:hover {background: violet;}
+
+.About_us{background-color: lightpurple;} 
+.About_us:hover {background: violet;}
+
+.Get_Paid_To_Recycle {background-color: lightgreen;} 
+.Get_Paid_To_Recycle:hover {background: violet;}
+
+.Contactus {background-color: rgb(14, 223, 63);} 
+.Contactus:hover {background-color: violet;}
+
+caption {
+  font-family: 'Georgia', serif;
+  font-size: 32px; 
+  font-weight: bold; 
+  color: green;
+  text-align: center;
+  background-color: white;  
+  margin: 20px auto; 
+  border: 2px solid; 
+  border-radius: 12px;
+  max-width: 800px}
+nav.navigation {display: flex;
+                 justify-content: center;
+                 flex-wrap: wrap;
+                 padding: 1rem;
+                 gap: 0.75rem;}
+
+ nav.navigation a{text-decoration: none; }                 
+nav.navigation button {
+      color: white;
+      padding: 0.6rem 1.2rem;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;}      
+a {font-size: 16px;
+    font-weight: bold;
+    transition: background-color;}
+
+  .social-media {
+      text-align: center;
+      margin: 3rem 0;
+    }
+
+    .social-media a {
+      margin: 0 1rem;
+      font-size: 1.5rem;
+      color: #0d1b2a;
+      transition: color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .social-media a:hover {
+      color: #61dafb;
+    }
+
+ .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      z-index: 1000;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      text-decoration: none;
+    }
+    
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: auto;
+      border: 3px solid #4caf50;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .lightbox {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .lightbox-content {
+      display: block;
+      max-width: 80%;
+      max-height: 80%;
+      margin: 5% auto;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+      border-radius: 8px;
+    }
+
+    .caption {
+      text-align: center;
+      color: #fff;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 40px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+</style>
+</head>
+
+<body>
+                            
+  <header class="header">
+    <img src="greenvalehead.JPG" alt="Greenvale Logo" class="logo" />
+    <div class="title-block">
+      <h1 class="title">Greenvale</h1>
+      <p class="slogan">Saving our planet . . .</p>
+    </div>
+  </header>
+            
+  <p class="p" style="color: rgb(255, 255, 255); font-size: 24px; text-align: justify; padding: 10px;">#Greenvale Organization, established with a vision to aid Earth's sustainability and uplift its communities, is committed to driving meaningful change. By having initiatives, promoting eco friendly practices and empowering individuals to make a difference, i aim to create a better future for generations to come.</p>
+
+<hr style="border: 2px solid white;">
+
+               <nav class="navigation">
+                    <button class="btn HOME"><a href="HOME.html">HOME</a></button>                    
+                    <button class="btn Get_Services"><a href="Services.html">Get Services</a></button>                   
+                    <button class="btn About_us"><a href="About us.html">About us</a></button>                  
+                    <button class="btn Contactus"><a href="Contactus.html">Contact us</a></button>
+                    <button class="btn Get_Paid_To_Recycle"><a href="https://za.jobrapido.com/?w=recycle&l=tshwane&r=auto">Get Paid To Recycle</a></button>
+                  </nav> 
+  <address>
+      <b >For Quick assistants call<a href="072-345-4543" style="font-size: 12px">072-345-4543</a></b> </b>
+    </address>
+<section>
+<h2 style= "background-color: rgb(146, 208, 13);text-align: center;color: white;">what we can Accomplish together</h2>
+
+  <div class="gallery">
+    <img src="nature6.webp" alt="Green Valley Landscape" onclick="openLightbox();showImage(0)">
+    <img src="Nature3.jpg" alt="Community Clean-up Day" onclick="openLightbox();showImage(1)">
+    <img src="Nature5.webp" alt="Tree Planting" onclick="openLightbox();showImage(2)">
+  </div>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" class="lightbox-content">
+    <div id="caption" class="caption"></div>
+  </div>
+
+  <script>
+    const images = document.querySelectorAll(".gallery img");
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+    const caption = document.getElementById("caption");
+
+    function openLightbox() {
+      lightbox.style.display = "block";
+    }
+
+    function closeLightbox() {
+      lightbox.style.display = "none";
+    }
+
+    function showImage(index) {
+      lightboxImg.src = images[index].src;
+      caption.textContent = images[index].alt;
+    }
+
+    // Allow ESC to close
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        closeLightbox();
+      }
+    });
+  </script>
+
+
+
+<table>
+  <caption style="font-size: 30px; font-family: 'Georgia', serif;">Greenvale's Aims</caption>
+  <tr>
+    <th>Statistics</th>
+    <th>Accomplished How</th>
+    <th>Province</th>
+  </tr>
+  <tr>
+    <td>Reduced waste making by 50%</td>
+    <td>Introduced recycling programs</td>
+    <td>Gauteng</td>
+  </tr>
+  <tr>
+    <td>Educated 10,000 individuals on green practices</td>
+    <td>Conducted workshops and community awareness campaigns</td>
+    <td>Nationwide</td>
+  </tr>
+  <tr>
+    <td>Planted 5,000 trees to reduce carbon footprint</td>
+    <td>Volunteers or with local environmental groups</td>
+    <td>Limpopo</td>
+  </tr>
+  <tr>
+    <td>Improved water conservation efforts</td>
+    <td>Hosted water-saving tips outreaches</td>
+    <td>Western Cape</td>
+  </tr>
+  <tr>
+    <td>Reduced fire or wood uses</td>
+    <td>Solar panel installations tenders</td>
+    <td>Nationwide</td>
+  </tr>
+  <tr>
+    <td>Mobilized youth for sustainability strikes</td>
+    <td>Organized eco-awareness events</td>
+    <td>Gauteng</td>
+  </tr>
+</table>
+
+ <a class="whatsapp-button" href="https://wa.me/27712715526" target="_blank" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+<footer class="social-media">
+    <div style="text-align: center; padding: 20px; background-color: #2e7d32; color: white;">
+        <p><strong>Greenvale Organization</strong> | Est. 2025 | Saving Our Planet . . .</p>
+        <p style="margin-top: 15px;"> Developed by Gudani/Greenvale org</p> 
+           <a style="color: lightseagreen;"href="https://www.facebook.com/greenvales/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+           <a style="color: whitesmoke;" href="https://www.instagram.com/greenvale_ep/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a> 
+          <nav>
+            <a href="services.html" style="color: #c8e6c9; margin: 0 10px;">get Services</a>| 
+            <a href="Contactus.html" style="color: #c8e6c9; margin: 0 10px;">Contact us</a>| 
+            <a href="About us.html" style="color: #c8e6c9; margin: 0 10px;">about Us</a> |
+            <a href="https://za.jobrapido.com/?w=recycle&l=tshwane&r=auto" style="color: #c8e6c9; margin: 0 10px;">get Paid to Recycle</a> 
+        </nav>
+           <p style="margin-top: 15px;"> 2025 Greenvale Organization. All Rights Reserved.</p>
+<a href="#top" style="display: inline-block; margin-top: 20px; text-align: center; padding: 10px 20px; background-color: red; color: white; border-radius: 5px;">Back to Top</a> 
+</footer></section>
+</body>
+</html>
